@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /tst/
+Sitemap: http://kdlogopedie.be/sitemap.xml

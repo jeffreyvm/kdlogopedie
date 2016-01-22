@@ -1,0 +1,168 @@
+body{
+    background-color: #99cc33;
+    padding-top: 70px;
+    color: #8d8d8d;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.navbar-fixed-top {
+    height: 140px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 40px;
+    min-height: 300px;
+    background: #fff;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow:
+    0 0 0 5px #99cc33,
+    0 0 0 7px #fff,
+    0 0 0 12px #99cc33,
+    0 0 0 14px #fff,
+    0 0 0 19px #99cc33,
+    0 0 0 21px #fff,
+    0 0 0 26px #99cc33,
+    0 0 0 28px #fff;
+    z-index: 1;
+}
+
+.contact{
+    padding-top: 30px;
+}
+.contact>ul>li {
+    margin-top: 2px;
+    padding: 2px 0px 2px 0px;
+
+}
+.contact>ul>.telephone{
+    list-style-image: url('../img/telephone.png');
+}
+.contact>ul>.email{
+    list-style-image: url('../img/mail.png');
+}
+.contact>ul>.address{
+    list-style-image: url('../img/home.png');
+}
+
+.photo_top {
+    display: none;
+    z-index: -1;
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 200px;
+    background: url("../img/Stock5484.jpg");
+}
+
+.photo_top>img {
+
+}
+
+.wie_foto {
+    float: right;
+    margin: 15px;
+    box-shadow:
+    0 0 0 5px #fff,
+    0 0 0 8px #99cc33;
+    border-radius: 10px;
+    width: 40%;
+}
+
+.wie_foto>img {
+    opacity: 0.9;
+    filter: gray; /* IE6-9 */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Disable grayscale on hover */
+.wie_foto>img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
+#map-container { height: 400px }
+
+
+/*
+A Bootstrap 3.1 affix sidebar template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+
+
+.logo{
+    width: 70px;
+    display: block;
+    margin: 20px;
+    background: url("../img/logo_small.png") no-repeat;
+    cursor: pointer;
+}
+
+.affix-top,.affix{
+    position: static;
+}
+
+.content {
+    min-height: 450px;
+}
+@media (min-width: 992px) {
+
+    .navbar-sidebar {
+        position: fixed;
+        top: 170px;
+        width: 252px;
+    }
+
+    .navbar-sidebar>li>a:hover, .navbar-sidebar>li>a.active {
+        background: none;
+        background-image: url('../img/accolade.png');
+        background-size: 30px;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .logo {
+        margin: 20px;
+        width: 180px;
+        height: 131px;
+        background: url("../img/logo_normal.png");
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    .navbar-sidebar {
+        width: 302px;
+    }
+
+}
+
+.navbar-sidebar {
+    z-index: 10;
+}
+.navbar-sidebar>li>a{
+    color: #eee;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#mainCol h2 {
+    padding-top: 55px;
+    margin-top: -55px;
+}
