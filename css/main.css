@@ -126,7 +126,7 @@ author: bootply.com
     .navbar-sidebar {
         position: fixed;
         top: 170px;
-        width: 252px;
+        width: 253px;
     }
 
     .navbar-sidebar>li>a:hover, .navbar-sidebar>li>a.active {
@@ -148,7 +148,7 @@ author: bootply.com
 
 @media (min-width: 1200px) {
     .navbar-sidebar {
-        width: 302px;
+        width: 303px;
     }
 
 }
