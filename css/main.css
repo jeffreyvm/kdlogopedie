@@ -10,9 +10,6 @@ body{
     float: none;
 }
 
-.navbar-fixed-top {
-    height: 140px;
-}
 
 .content {
     padding: 20px;
@@ -61,9 +58,6 @@ body{
     background: url("../img/Stock5484.jpg");
 }
 
-.photo_top>img {
-
-}
 
 .wie_foto {
     float: right;
@@ -114,6 +108,11 @@ author: bootply.com
     cursor: pointer;
 }
 
+.logo>h1 {
+    opacity: 0;
+    font-size: 1px;
+}
+
 .affix-top,.affix{
     position: static;
 }
@@ -121,7 +120,16 @@ author: bootply.com
 .content {
     min-height: 450px;
 }
+
+.navbar-sidebar>li>a:hover, .navbar-sidebar>li>a.active {
+    background-color: #fff;
+    color: #001500;
+}
+
 @media (min-width: 992px) {
+    .navbar-fixed-top {
+        height: 140px;
+    }
 
     .navbar-sidebar {
         position: fixed;
@@ -135,6 +143,7 @@ author: bootply.com
         background-size: 30px;
         background-repeat: no-repeat;
         background-position: right;
+        color: #eee;
     }
 
     .logo {
