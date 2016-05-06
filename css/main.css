@@ -140,12 +140,8 @@ author: bootply.com
         width: 253px;
     }
 
-    .navbar-groen {
-        box-shadow:
-        inset 0 0 0 5px #99cc33,
-        inset 0 0 0 7px #fff,
-        inset 0 0 0 12px #99cc33;
-
+    .navbar-groen{
+        /*z-index: -200;*/
     }
 
     .navbar-sidebar>li>a:hover, .navbar-sidebar>li>a.active {
@@ -166,15 +162,17 @@ author: bootply.com
     }
 
     .container-images{
-        left: 30px;
+        left: 85px;
         display: block;
     }
+
+
     .container-images >div.row> div{
-        width: 195px;
+        width: 210px;
         height: 130px;
         float: left;
         background-size: cover;
-        opacity: 0.9;
+        opacity: 0.6;
         filter: gray; /* IE6-9 */
         filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
         -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
@@ -183,6 +181,7 @@ author: bootply.com
     /* Disable grayscale on hover */
     .container-images > div.row > div:hover {
         filter: none;
+        opacity: 0.9;
         -webkit-filter: grayscale(0);
     }
 
@@ -200,12 +199,22 @@ author: bootply.com
 
     .container-images >div.row> .bg_img4{
         background-image: url('../img/header/4.png');
+        display: none;
     }
 }
 
 @media (min-width: 1200px) {
     .navbar-sidebar {
         width: 303px;
+    }
+
+
+    .container-images{
+        left: 110px;
+    }
+
+    .container-images >div.row> .bg_img4{
+        display: block;
     }
 
 }
