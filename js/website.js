@@ -4,7 +4,7 @@ kdl.config(function($routeProvider, $locationProvider){
         $routeProvider.
             when('/home', {title: 'Home', templateUrl: '/partials/home.html'}).
             when('/wie', {templateUrl: '/partials/wie.html'}).
-            when('/tarieven', {templateUrl: 'partials/tarieven.html'}).
+            // when('/tarieven', {templateUrl: 'partials/tarieven.html'}).
             when('/contact', {templateUrl: 'partials/contact.html'}).
             when('/werkwijze', {templateUrl: 'partials/werkwijze.html'}).
             when('/aanbod', {templateUrl: 'partials/aanbod.html'}).

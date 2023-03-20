@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
 		xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url> 
-    <loc>http://kdlogopedie.be</loc> 
+    <loc>https://kdlogopedie.be</loc>
     <image:image>
-       <image:loc>http://www.kdlogopedie.be/img/logo_normal.png</image:loc>
+       <image:loc>https://www.kdlogopedie.be/img/logo_normal.png</image:loc>
        <image:caption>KD Logopedie</image:caption>
     </image:image>
 	<changefreq>monthly</changefreq>
 	<priority>0.8</priority>
   </url>
   <url>
-	<loc>http://www.kdlogopedie.be/wie</loc>
+	<loc>https://www.kdlogopedie.be/wie</loc>
 	<image:image>
-       <image:loc>http://www.kdlogopedie.be/img/kelly.jpg</image:loc>
+       <image:loc>https://www.kdlogopedie.be/img/kelly.jpg</image:loc>
        <image:caption>Kelly Denoyette</image:caption>
     </image:image>
 	<priority>1.0</priority>
   </url>
   <url>
-	<loc>http://www.kdlogopedie.be/werkwijze</loc>
+	<loc>https://www.kdlogopedie.be/werkwijze</loc>
   </url>
   <url>
-	<loc>http://www.kdlogopedie.be/aanbod</loc>
+	<loc>https://www.kdlogopedie.be/aanbod</loc>
   </url>
+<!--  <url>-->
+<!--	<loc>https://www.kdlogopedie.be/tarieven</loc>-->
+<!--  </url>-->
   <url>
-	<loc>http://www.kdlogopedie.be/tarieven</loc>
-  </url>
-  <url>
-	<loc>http://www.kdlogopedie.be/contact</loc>
+	<loc>https://www.kdlogopedie.be/contact</loc>
 	<priority>1.0</priority>
   </url>
 </urlset>

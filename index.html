@@ -29,15 +29,13 @@
 
     <script type="text/javascript" src="js/website.js"></script>
 
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-72531903-1"></script>
     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-        ga('create', 'UA-72531903-1', 'auto');
-        ga('send', 'pageview');
-
+        gtag('config', 'UA-72531903-1');
     </script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -79,7 +77,7 @@
                     <li><a href="/wie" ng-class="{active: isSet('/wie')}" title="Wie is KD Logopedie">Wie ben ik?</a></li>
                     <li><a href="/werkwijze" ng-class="{active: isSet('/werkwijze')}" title="Werkwijze KD Logopedie">Werkwijze</a></li>
                     <li><a href="/aanbod" ng-class="{active: isSet('/aanbod')}" title="Aanbod KD Logopedie">Aanbod</a></li>
-                    <li><a href="/tarieven" ng-class="{active: isSet('/tarieven')}" title="Tarieven KD Logopedie">Tarieven</a></li>
+<!--                    <li><a href="/tarieven" ng-class="{active: isSet('/tarieven')}" title="Tarieven KD Logopedie">Tarieven</a></li>-->
                     <li><a href="/contact" ng-class="{active: isSet('/contact')}" title="Contacteer Kelly Denoyette">Contact</a></li>
                 </ul>
             </nav>
@@ -93,12 +91,12 @@
         {
           "@context": "http://schema.org/",
           "@type": "LocalBusiness",
-          "@id": "http://kdlogopedie.be",
+          "@id": "https://kdlogopedie.be",
           "name": "KD Logopedie",
           "email": "info@kdlogopedie.be",
           "telephone": "+32495164219",
-          "url": "http://kdlogopedie.be",
-          "logo" : "http://kdlogopedie.be/img/KD-logo-white.jpg",
+          "url": "https://kdlogopedie.be",
+          "logo" : "https://kdlogopedie.be/img/KD-logo-white.jpg",
           "founder": {
             "@type": "Person",
             "familyName": "Denoyette",
@@ -113,7 +111,7 @@
                 "addressCountry": "BE"
              },
              "jobTitle": "Logopedist",
-             "url": "http://kdlogopedie.be/#/wie"
+             "url": "https://kdlogopedie.be/#/wie"
           },
           "address": {
             "@type": "PostalAddress",
